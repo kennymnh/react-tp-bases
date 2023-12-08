@@ -32,7 +32,51 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
+}
+
+.product-card:not(:last-child) {
+  margin-right: 16px;
+}
+
+.product-card h3 {
+  margin-top: 16px;
+}
+
+.product-card {
+  display: inline-block;
+  border-radius: 8px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  background-color: white;
+  padding: 8px 16px;
+  width: 250px;
+  transition: ease all .3s
+}
+
+.product-card:hover {
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.6);
+}
+
+.product-details {
+  margin: 16px 0;
+}
+
+.product-details .detail-element {
+  display: flex;
+  justify-content: space-between;
+}
+
+.product-details .detail-element p {
+  margin: 0;
+}
+
+.product-details .detail-element :first-child {
+  font-weight: bold;
+}
+
+.section {
+  margin: 64px 0;
 }
