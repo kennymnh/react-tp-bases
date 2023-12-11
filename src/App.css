@@ -47,6 +47,7 @@
 }
 
 .product-card {
+  margin-bottom: 16px;
   display: inline-block;
   border-radius: 8px;
   border: 1px solid rgba(0, 0, 0, 0.2);
@@ -79,4 +80,10 @@
 
 .section {
   margin: 64px 0;
+}
+
+
+.cgv {
+  margin: 64px auto;
+  max-width: 1000px;
 }

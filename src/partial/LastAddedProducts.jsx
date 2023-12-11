@@ -1,5 +1,5 @@
 import './LastAddedProducts.css';
-import Product from './Product';
+import Product from '../Product';
 
 const LastAddedProducts = ({ products }) => {
     const lastFiveProducts = products.filter((product) => product.isPublished === true).slice(-5);

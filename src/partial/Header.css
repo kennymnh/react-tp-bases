@@ -20,16 +20,6 @@ header .logo-title img {
 
 header li {
     display: inline;
-    border-radius: 8px;
-    border: solid 1px black;
-    padding: 8px 16px;
-    cursor: pointer;
-    transition: ease all .3s;
-}
-
-header li:hover {
-    background-color: black;
-    color: white;
 }
 
 header li+li {
@@ -38,4 +28,19 @@ header li+li {
 
 p.author {
     font-style: italic;
+}
+
+header a {
+    border-radius: 8px;
+    border: solid 1px black !important;
+    padding: 8px 16px;
+    cursor: pointer;
+    color: black;
+    text-decoration: none;
+    transition: ease all .3s;
+}
+
+header a:hover  {
+    background-color: black;
+    color: white;
 }
